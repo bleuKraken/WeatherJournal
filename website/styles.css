@@ -1,0 +1,61 @@
+
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* Remove top code when refactoring */
+
+/* ~~~~~~~~~~~~~~ Colors ~~~~~~~~~~~~~~ */
+.bg-primary {
+  background-color: rgb(13, 46, 110) !important;
+}
+
+.color-primary {
+  color: rgb(208, 209, 219) !important;
+}
+
+.color-warning {
+  color: rgb(113, 95, 16) !important;
+}
+
+.color-dark {
+  color: rgb(31, 31, 31);
+}
+/* ~~~~~~~~~~~~ Sections Below ~~~~~~~~~~~~ */
+
+.header {
+  background-image: url('https://images.unsplash.com/photo-1498496294664-d9372eb521f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 20vh;
+  min-height: 200px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.journal-section {
+  margin-top: 20px;
+}
+
+.question-input {
+  width: 100%;
+  height: 200px;
+  background-color: #e4e4e4;
+}
+
+.journal-output {
+  margin-top: 20px;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+}
